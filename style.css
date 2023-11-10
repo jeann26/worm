@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.soil {
+    width:100vw;
+    height:100vh;
+}
+
+.title {
+    font-size:20px;
+    color:white;
+    position:absolute;
+    top:0;
+    left:0;
+    padding: 20px;
+    margin:0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.title:hover {
+    font-size:200px;
+    color:green;
+    transition: color 500ms, font-size 5s;
+}
+
+.green-box {
+    position:absolute;
+    top:400px;
+    left:300px;
+    background:green;
+    width:200px;
+    height:200px;
+    transition:all 500ms;
+}
+
+.rock {
+    position: absolute; 
+    width: 10%;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.dialogue {
+    
+    background-color: lightgray;
+    position: absolute; 
+    top: 50%; /*the code from top-transform is how you get elements to be centred on page */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 50px;
+    z-index: 1;
+
+    display: none; 
+}
+
+.seed {
+    position: absolute;
+    width: 10%;
+    left: 70%;
+    top: 70%;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.worm {
+    position: absolute;
+    width: 15%;
+    left: 3%;
+    top: 70%;
+    transition: all 5s; 
+}
